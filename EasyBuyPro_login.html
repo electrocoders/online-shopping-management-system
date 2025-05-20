@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EasyBuyPro_login</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome back!</h1>
+    <p class="subtitle">Enter your Credentials to access your account</p>
+
+    <form class="login-form">
+      <label for="email">Email address</label>
+      <input type="email" id="email" placeholder="Enter your email" />
+
+      <label for="password">Password
+        <a href="#" class="forgot">forgot password</a>
+      </label>
+      <input type="password" id="password" placeholder="Password" />
+
+      <div class="remember">
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember for 30 days</label>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+
+    <div class="divider">or</div>
+
+    <div class="social-login">
+      <button class="google-btn"><img src="https://img.icons8.com/color/16/000000/google-logo.png" /> Sign in with Google</button>
+      <button class="apple-btn"><img src="https://img.icons8.com/ios-filled/16/000000/mac-os.png" /> Sign in with Apple</button>
+    </div>
+
+    <p class="signup">Don’t have an account? <a href="#">Sign Up</a></p>
+  </div>
+</body>
+</html>
